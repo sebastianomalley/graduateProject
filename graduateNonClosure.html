@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Graduate Project</title>
+	<link rel="stylesheet" href="graduateNonClosure.css">
+</head>
+<body>
+	<div id="browser-border"></div>
+
+	<style>
+		body {
+		  background-image: url('https://media.istockphoto.com/id/171330891/photo/globe-viewing-from-space.jpg?s=2048x2048&w=is&k=20&c=7QVl9CXp1W7IxNVY_Nl3o2eYK9ILyIryEwds3HowGNY=');
+		}
+	</style>
+	
+	<div id="earth" class="earth-div">
+		<h1 class="earth-heading-style">EARTH</h1>
+		<div class="scores-container">
+			<div class="score-item">
+				<p class="earth-p-style">Home: <span id="earthEarthScore">0</span></p>
+				<button id="earthHomeBtn" class="scoreBtn">Add Points</button>
+			</div>
+			<div class="score-item">
+				<p class="earth-p-style">Visitor: <span id="earthVisitorScore">0</span></p>
+				<button id="earthVisitorBtn" class="scoreBtn">Add Points</button>
+			</div>
+		</div>
+	</div>
+	
+	<div class="bottom-divs">
+		<div id="football" class="bottom-div left">
+			<h2 class="football-heading-style">Football Game</h2>
+			<h4 class="football-heading-style">Miami, FL</h4>
+			<svg height="200" width="300" xmlns="http://www.w3.org/2000/svg">
+				<image width="300" height="200" href="https://static.vecteezy.com/system/resources/thumbnails/002/770/009/small/american-football-stadium-background-free-vector.jpg" alt="Football Field Image" /> 
+			</svg>
+			<div class="scores-container">
+				<div class="score-item">
+					<p>Home: <span id="footballHomeScore">0</span></p>
+					<button id="footballHomeBtn" class="scoreBtn">Add Points</button>
+				</div>
+				<div class="score-item">
+					<p>Visitor: <span id="footballVisitorScore">0</span></p>
+					<button id="footballVisitorBtn" class="scoreBtn">Add Points</button>
+				</div>
+			</div>
+		</div>
+
+		<div id="tennis" class="bottom-div center">
+			<h2 class="tennis-heading-style">Tennis Game</h2>
+			<h4 class="tennis-heading-style">New York City</h4>
+			<svg height="200" width="300" xmlns="http://www.w3.org/2000/svg">
+				<image width="300" height="200" href="https://www.creativefabrica.com/wp-content/uploads/2021/01/20/Outdoor-Tennis-Court-Stands-Sport-Game-Graphics-7915516-1-1-580x371.jpg" alt="Tennis Court Image" />
+			</svg>
+			<div class="scores-container">
+				<div class="score-item">
+					<p>Home: <span id="tennisHomeScore">0</span></p>
+					<button id="tennisHomeBtn" class="scoreBtn">Add Points</button>
+				</div>
+				<div class="score-item">
+					<p>Visitor: <span id="tennisVisitorScore">0</span></p>
+					<button id="tennisVisitorBtn" class="scoreBtn">Add Points</button>
+				</div>
+			</div>
+		</div>
+
+		<div id="baseball" class="bottom-div right">
+			<h2 class="baseball-heading-style">Baseball Game</h2>
+			<h4 class="baseball-heading-style">Chicago, IL</h4>
+			<svg height="200" width="300" xmlns="http://www.w3.org/2000/svg">
+				<image width="300" height="200" href="https://img.freepik.com/premium-vector/cartoon-illustration-baseball-field-with-view-city_1032824-3469.jpg?w=360" alt="Baseball Field Image" />
+			</svg>
+		
+			<div class="scores-container">
+				<div class="score-item">
+					<p>Home: <span id="baseballHomeScore">0</span></p>
+					<button id="baseballHomeBtn" class="scoreBtn">Add Points</button>
+				</div>
+				<div class="score-item">
+					<p>Visitor: <span id="baseballVisitorScore">0</span></p>
+					<button id="baseballVisitorBtn" class="scoreBtn">Add Points</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="graduateNonClosure.js"></script>
+
+</body>
+</html>
